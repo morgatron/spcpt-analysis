@@ -1,0 +1,8 @@
+<map id="repo.programs.pythonpackages.pr.LVProcess.MakeTestData" name="repo.programs.pythonpackages.pr.LVProcess.MakeTestData">
+<area shape="rect" id="node2" href="$namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1sdtime.html#a923e8ccb4500449396bcb1ad3435f968" title="repo.programs.pythonpackages.pr.sdtime.secs2sd" alt="" coords="277,5,592,32"/>
+<area shape="rect" id="node3" href="$namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1SPfuncs.html#af8a48b74a6d4e725e2409329126076a6" title="Construct a set of triggers by analysing the timing for the signal. " alt="" coords="323,57,546,98"/>
+<area shape="rect" id="node5" href="$namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1SPfuncs.html#a87aac33304db20fd58d7a3625061cca6" title="Cut up the times &#160;into sections that start at t_0 and and at t_end OR t_0 + delta_t if they&#39;re all th..." alt="" coords="323,122,546,163"/>
+<area shape="rect" id="node6" href="$namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1SPfuncs.html#a2533afa952ea007cfad4a1deb6a607a5" title="Return angles for the sequence defined by , repeated &#160;times. " alt="" coords="323,187,546,229"/>
+<area shape="rect" id="node4" href="$namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1SPfuncs.html#a9d03b1e8bb9325cdab8fa026d6cdbbe3" title="repo.programs.pythonpackages.pr.\lSPfuncs.secs2sd" alt="" coords="641,57,863,98"/>
+<area shape="rect" id="node7" href="$namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1SPfuncs.html#aba724f914a5cc838851518564a1f5d84" title="repo.programs.pythonpackages.pr.\lSPfuncs.getRotationsFromRSpec" alt="" coords="641,187,863,229"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="repo.programs.pythonpackages.pr.SPfuncs.sliceSorted" name="repo.programs.pythonpackages.pr.SPfuncs.sliceSorted">
+<area shape="rect" id="node2" href="$namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1SPDataSet.html#ac07feedd7af03661a0925bdec0d1f1fe" title="repo.programs.pythonpackages.pr.\lSPDataSet.seqFiltFuncTime" alt="" coords="278,5,501,46"/>
+<area shape="rect" id="node3" href="$namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1SPfuncs.html#afac5173c60ef10bac3b5eafb40f7efef" title="Cut the given x data at points starting from x0, and going to x0+delta_x, and perform the functions i..." alt="" coords="278,70,501,111"/>
+<area shape="rect" id="node4" href="$namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1SPfuncs.html#ae90ba18ae292290722e197cf242d8721" title="Make up some data that the experiment might have measured. " alt="" coords="278,135,501,177"/>
+<area shape="rect" id="node7" href="$namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1SPfuncs.html#aa45dbb6291e4944f3ba2718a3d0ee001" title="repo.programs.pythonpackages.pr.\lSPfuncs.preprocess_raw" alt="" coords="278,201,501,242"/>
+<area shape="rect" id="node5" href="$namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1SPDataSet.html#ab3e94a5db004f2a1cbe3b89005731d7c" title="repo.programs.pythonpackages.pr.\lSPDataSet.testDS" alt="" coords="550,70,773,111"/>
+<area shape="rect" id="node6" href="$namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1SPDataSet.html#ae343b1ec862928d74ae9f6e140008b0d" title="repo.programs.pythonpackages.pr.\lSPDataSet.testDS2" alt="" coords="550,135,773,177"/>
+<area shape="rect" id="node8" href="$namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1SPfuncs.html#a1aca1da7012fa44af8ba6fb057c7ed1b" title="Todos: " alt="" coords="550,201,773,242"/>
+</map>

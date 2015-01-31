@@ -1,0 +1,130 @@
+\hypertarget{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata}{\section{repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata Namespace Reference}
+\label{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata}\index{repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata@{repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_abf99dd1de2422300e6e0810c52e352b0}{get\-S\-P\-Data}
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+tuple \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_af3d30f9077a6d1c700f7f691a8288334}{trig} = make\-Trig\-M(sd\-F,\hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_a3cd7917344307847daed23d1f68575c4}{rotations},interval,delay)
+\item 
+tuple \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_a3cd7917344307847daed23d1f68575c4}{rotations} = find(diff(\hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_af3d30f9077a6d1c700f7f691a8288334}{trig})$>$(\hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_af3d30f9077a6d1c700f7f691a8288334}{trig}(2)-\/\hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_af3d30f9077a6d1c700f7f691a8288334}{trig}(1))$\ast$1.\-1,1)
+\item 
+list \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_a98628f2f931f1936c89b4f2c90610736}{mtrig} = \mbox{[}$\,$\mbox{]}
+\item 
+list \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_a1dcdb0bd4cf5fc99ddd642fd2e7dcb7b}{sd\-P} = \mbox{[}$\,$\mbox{]}
+\item 
+list \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_a5d2dee28b4f96a6448beb4b18e01fb24}{sensor} = \mbox{[}$\,$\mbox{]}
+\item 
+tuple \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_aa7e1cd1161dfd5e09ecfea09630c0395}{trigfiles} = dir('$\ast$triggers$\ast$.txt')
+\item 
+tuple \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_ab7bcb6dc1e35e343ea3d5a9f790c1f42}{posfiles} = dir('$\ast$positions$\ast$.bin')
+\item 
+tuple \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_ad0b93fd48f5d39d35267e0463a7d2e52}{sensfiles} = dir('$\ast$sensors$\ast$.bin')
+\item 
+tuple \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_a0a88573676ca77c114f061278e10a9e5}{fid} = fopen(\hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_ab7bcb6dc1e35e343ea3d5a9f790c1f42}{posfiles}(i).name)
+\item 
+tuple \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_afcc30f10d3721c1b098ac36014f598ba}{data} = fread(\hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_a0a88573676ca77c114f061278e10a9e5}{fid},'int32=$>$int32')
+\item 
+tuple \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_aadc073490775819f8e7b4eecba84d8c0}{data2} = reshape(\hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_afcc30f10d3721c1b098ac36014f598ba}{data},4,length(\hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_afcc30f10d3721c1b098ac36014f598ba}{data})/4)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_abf99dd1de2422300e6e0810c52e352b0}{\index{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}!get\-S\-P\-Data@{get\-S\-P\-Data}}
+\index{get\-S\-P\-Data@{get\-S\-P\-Data}!repo::programs::pythonpackages::pr::getSPdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}}
+\subsubsection[{get\-S\-P\-Data}]{\setlength{\rightskip}{0pt plus 5cm}def repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-get\-S\-P\-Data (
+\begin{DoxyParamCaption}
+\item[{}]{timestamp, }
+\item[{}]{rotations, }
+\item[{}]{interval, }
+\item[{}]{delay}
+\end{DoxyParamCaption}
+)}}\label{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_abf99dd1de2422300e6e0810c52e352b0}
+
+
+Definition at line 4 of file get\-S\-Pdata.\-py.
+
+
+
+\subsection{Variable Documentation}
+\hypertarget{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_afcc30f10d3721c1b098ac36014f598ba}{\index{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}!data@{data}}
+\index{data@{data}!repo::programs::pythonpackages::pr::getSPdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}}
+\subsubsection[{data}]{\setlength{\rightskip}{0pt plus 5cm}tuple repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-data = fread({\bf fid},'int32=$>$int32')}}\label{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_afcc30f10d3721c1b098ac36014f598ba}
+
+
+Definition at line 38 of file get\-S\-Pdata.\-py.
+
+\hypertarget{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_aadc073490775819f8e7b4eecba84d8c0}{\index{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}!data2@{data2}}
+\index{data2@{data2}!repo::programs::pythonpackages::pr::getSPdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}}
+\subsubsection[{data2}]{\setlength{\rightskip}{0pt plus 5cm}tuple repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-data2 = reshape({\bf data},4,length({\bf data})/4)}}\label{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_aadc073490775819f8e7b4eecba84d8c0}
+
+
+Definition at line 39 of file get\-S\-Pdata.\-py.
+
+\hypertarget{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_a0a88573676ca77c114f061278e10a9e5}{\index{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}!fid@{fid}}
+\index{fid@{fid}!repo::programs::pythonpackages::pr::getSPdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}}
+\subsubsection[{fid}]{\setlength{\rightskip}{0pt plus 5cm}tuple repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-fid = fopen({\bf posfiles}(i).name)}}\label{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_a0a88573676ca77c114f061278e10a9e5}
+
+
+Definition at line 35 of file get\-S\-Pdata.\-py.
+
+\hypertarget{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_a98628f2f931f1936c89b4f2c90610736}{\index{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}!mtrig@{mtrig}}
+\index{mtrig@{mtrig}!repo::programs::pythonpackages::pr::getSPdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}}
+\subsubsection[{mtrig}]{\setlength{\rightskip}{0pt plus 5cm}list repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-mtrig = \mbox{[}$\,$\mbox{]}}}\label{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_a98628f2f931f1936c89b4f2c90610736}
+
+
+Definition at line 23 of file get\-S\-Pdata.\-py.
+
+\hypertarget{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_ab7bcb6dc1e35e343ea3d5a9f790c1f42}{\index{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}!posfiles@{posfiles}}
+\index{posfiles@{posfiles}!repo::programs::pythonpackages::pr::getSPdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}}
+\subsubsection[{posfiles}]{\setlength{\rightskip}{0pt plus 5cm}tuple repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-posfiles = dir('$\ast$positions$\ast$.bin')}}\label{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_ab7bcb6dc1e35e343ea3d5a9f790c1f42}
+
+
+Definition at line 29 of file get\-S\-Pdata.\-py.
+
+\hypertarget{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_a3cd7917344307847daed23d1f68575c4}{\index{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}!rotations@{rotations}}
+\index{rotations@{rotations}!repo::programs::pythonpackages::pr::getSPdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}}
+\subsubsection[{rotations}]{\setlength{\rightskip}{0pt plus 5cm}tuple repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-rotations = find(diff({\bf trig})$>$({\bf trig}(2)-\/{\bf trig}(1))$\ast$1.\-1,1)}}\label{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_a3cd7917344307847daed23d1f68575c4}
+
+
+Definition at line 21 of file get\-S\-Pdata.\-py.
+
+\hypertarget{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_a1dcdb0bd4cf5fc99ddd642fd2e7dcb7b}{\index{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}!sd\-P@{sd\-P}}
+\index{sd\-P@{sd\-P}!repo::programs::pythonpackages::pr::getSPdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}}
+\subsubsection[{sd\-P}]{\setlength{\rightskip}{0pt plus 5cm}list repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-sd\-P = \mbox{[}$\,$\mbox{]}}}\label{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_a1dcdb0bd4cf5fc99ddd642fd2e7dcb7b}
+
+
+Definition at line 24 of file get\-S\-Pdata.\-py.
+
+\hypertarget{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_ad0b93fd48f5d39d35267e0463a7d2e52}{\index{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}!sensfiles@{sensfiles}}
+\index{sensfiles@{sensfiles}!repo::programs::pythonpackages::pr::getSPdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}}
+\subsubsection[{sensfiles}]{\setlength{\rightskip}{0pt plus 5cm}tuple repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-sensfiles = dir('$\ast$sensors$\ast$.bin')}}\label{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_ad0b93fd48f5d39d35267e0463a7d2e52}
+
+
+Definition at line 30 of file get\-S\-Pdata.\-py.
+
+\hypertarget{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_a5d2dee28b4f96a6448beb4b18e01fb24}{\index{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}!sensor@{sensor}}
+\index{sensor@{sensor}!repo::programs::pythonpackages::pr::getSPdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}}
+\subsubsection[{sensor}]{\setlength{\rightskip}{0pt plus 5cm}list repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-sensor = \mbox{[}$\,$\mbox{]}}}\label{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_a5d2dee28b4f96a6448beb4b18e01fb24}
+
+
+Definition at line 25 of file get\-S\-Pdata.\-py.
+
+\hypertarget{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_af3d30f9077a6d1c700f7f691a8288334}{\index{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}!trig@{trig}}
+\index{trig@{trig}!repo::programs::pythonpackages::pr::getSPdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}}
+\subsubsection[{trig}]{\setlength{\rightskip}{0pt plus 5cm}list repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-trig = make\-Trig\-M(sd\-F,{\bf rotations},interval,delay)}}\label{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_af3d30f9077a6d1c700f7f691a8288334}
+
+
+Definition at line 15 of file get\-S\-Pdata.\-py.
+
+\hypertarget{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_aa7e1cd1161dfd5e09ecfea09630c0395}{\index{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}!trigfiles@{trigfiles}}
+\index{trigfiles@{trigfiles}!repo::programs::pythonpackages::pr::getSPdata@{repo\-::programs\-::pythonpackages\-::pr\-::get\-S\-Pdata}}
+\subsubsection[{trigfiles}]{\setlength{\rightskip}{0pt plus 5cm}tuple repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-trigfiles = dir('$\ast$triggers$\ast$.txt')}}\label{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_aa7e1cd1161dfd5e09ecfea09630c0395}
+
+
+Definition at line 28 of file get\-S\-Pdata.\-py.
+

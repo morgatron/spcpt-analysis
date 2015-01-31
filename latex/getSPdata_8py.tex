@@ -1,0 +1,38 @@
+\hypertarget{getSPdata_8py}{\section{get\-S\-Pdata.\-py File Reference}
+\label{getSPdata_8py}\index{get\-S\-Pdata.\-py@{get\-S\-Pdata.\-py}}
+}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata}{repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_abf99dd1de2422300e6e0810c52e352b0}{repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-get\-S\-P\-Data}
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+tuple \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_af3d30f9077a6d1c700f7f691a8288334}{repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-trig} = make\-Trig\-M(sd\-F,rotations,interval,delay)
+\item 
+tuple \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_a3cd7917344307847daed23d1f68575c4}{repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-rotations} = find(diff(trig)$>$(trig(2)-\/trig(1))$\ast$1.\-1,1)
+\item 
+list \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_a98628f2f931f1936c89b4f2c90610736}{repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-mtrig} = \mbox{[}$\,$\mbox{]}
+\item 
+list \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_a1dcdb0bd4cf5fc99ddd642fd2e7dcb7b}{repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-sd\-P} = \mbox{[}$\,$\mbox{]}
+\item 
+list \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_a5d2dee28b4f96a6448beb4b18e01fb24}{repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-sensor} = \mbox{[}$\,$\mbox{]}
+\item 
+tuple \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_aa7e1cd1161dfd5e09ecfea09630c0395}{repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-trigfiles} = dir('$\ast$triggers$\ast$.txt')
+\item 
+tuple \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_ab7bcb6dc1e35e343ea3d5a9f790c1f42}{repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-posfiles} = dir('$\ast$positions$\ast$.bin')
+\item 
+tuple \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_ad0b93fd48f5d39d35267e0463a7d2e52}{repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-sensfiles} = dir('$\ast$sensors$\ast$.bin')
+\item 
+tuple \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_a0a88573676ca77c114f061278e10a9e5}{repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-fid} = fopen(posfiles(i).name)
+\item 
+tuple \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_afcc30f10d3721c1b098ac36014f598ba}{repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-data} = fread(fid,'int32=$>$int32')
+\item 
+tuple \hyperlink{namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1getSPdata_aadc073490775819f8e7b4eecba84d8c0}{repo.\-programs.\-pythonpackages.\-pr.\-get\-S\-Pdata.\-data2} = reshape(data,4,length(data)/4)
+\end{DoxyCompactItemize}

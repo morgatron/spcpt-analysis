@@ -1,0 +1,4 @@
+<map id="repo.programs.pythonpackages.pr.SPfuncs.view_correlations" name="repo.programs.pythonpackages.pr.SPfuncs.view_correlations">
+<area shape="rect" id="node2" href="$namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1SPfuncs.html#a792112113be3784fc089059c6eed4ff1" title="N=100 th=linspace(0,20,N)%(2*pi) sa= CorrelationData(linspace(0,1,N), sin(2*th), ones(N)) ..." alt="" coords="278,5,501,46"/>
+<area shape="rect" id="node3" href="$namespacerepo_1_1programs_1_1pythonpackages_1_1pr_1_1SPfuncs.html#a5a727d85f97fb1e1e7370fbca3b1d1ea" title="repo.programs.pythonpackages.pr.\lSPfuncs.group_by_axis" alt="" coords="278,70,501,111"/>
+</map>
